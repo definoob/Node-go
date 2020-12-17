@@ -1,0 +1,46 @@
+module github.com/vordev/VOR
+
+go 1.14
+
+require (
+	github.com/BurntSushi/toml v0.3.1
+	github.com/araddon/dateparse v0.0.0-20201001162425-8aadafed4dc4
+	github.com/bitly/go-simplejson v0.5.0
+	github.com/btcsuite/btcd v0.21.0-beta
+	github.com/ethereum/go-ethereum v1.9.24
+	github.com/fatih/color v1.10.0
+	github.com/fxamacker/cbor/v2 v2.2.0
+	github.com/gin-gonic/contrib v0.0.0-20201101042839-6a891bf89f19
+	github.com/gin-gonic/gin v1.6.3
+	github.com/gobuffalo/packr v1.30.1
+	github.com/gorilla/securecookie v1.1.1
+	github.com/ipfs/go-ds-sql v0.2.0
+	github.com/jinzhu/gorm v1.9.16
+	github.com/jpillora/backoff v1.0.0
+	github.com/lib/pq v1.8.0
+	github.com/libp2p/go-libp2p-core v0.7.0
+	github.com/libp2p/go-libp2p-peerstore v0.2.6
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mitchellh/mapstructure v1.3.3
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.8.0
+	github.com/robfig/cron/v3 v3.0.1
+	github.com/satori/go.uuid v1.2.0
+	github.com/shopspring/decimal v1.2.0
+	github.com/smartcontractkit/libocr v0.0.0-20201126121732-22a06cb4505e
+	github.com/spf13/viper v1.7.1
+	github.com/stretchr/testify v1.6.1
+	github.com/tevino/abool v1.2.0
+	github.com/tidwall/gjson v1.6.3
+	github.com/tidwall/sjson v1.1.2
+	go.dedis.ch/fixbuf v1.0.3
+	go.dedis.ch/kyber/v3 v3.0.13
+	go.uber.org/multierr v1.6.0
+	go.uber.org/zap v1.16.0
+	golang.org/x/crypto v0.0.0-20201124201722-c8d3bf9c5392
+	golang.org/x/text v0.3.4
+	gonum.org/v1/gonum v0.8.1
+	gopkg.in/gormigrate.v1 v1.6.0
+	gopkg.in/guregu/null.v3 v3.5.0
+	gopkg.in/guregu/null.v4 v4.0.0
+)

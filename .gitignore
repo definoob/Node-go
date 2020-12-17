@@ -1,0 +1,7 @@
+node_modules
+tools/node_modules
+tools/secrets
+tools/*.env
+tools/cypress-job-server/node_modules
+evm-test-helpers/node_modules
+evm-contracts/node_modules
